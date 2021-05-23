@@ -1,8 +1,12 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UserSecretsId>c9b949a6-4a0b-42a2-b4b6-1400ba202d5f</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="App_Offline.html" />
+  </ItemGroup>
 
 </Project>
